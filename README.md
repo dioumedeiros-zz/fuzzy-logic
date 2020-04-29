@@ -1,8 +1,8 @@
 <h1 align="center">Logica Fuzzy</h1>
-<p align="center">Resolução de problema de Consumo de combustível Viajante</p>
+<p align="center">Resolução de problema de Consumo de combustível</p>
 <p align="center">
-  <a aria-label="Github Pages" href="https://dioumedeiros.github.io/genetic-algorithm/">
-    <img src="https://img.shields.io/badge/genetic-algorithm-blueviolet" />
+  <a href="https://colab.research.google.com/github/dioumedeiros/fuzzy-logic/blob/master/fuzzy_logic.ipynb" target="_parent">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
   </a>
 </p>
 

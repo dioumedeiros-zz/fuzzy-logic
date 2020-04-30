@@ -47,4 +47,8 @@ velocidade.view()
 temperatura.view()
 consumo.view()
 ```
+![](graph/velocidade.png)
 
+![](graph/temp.png)
+
+![](graph/consumo.png)

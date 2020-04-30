@@ -52,3 +52,14 @@ consumo.view()
 ![](graph/temp.png)
 
 ![](graph/consumo.png)
+
+## Criação de regras difusas
+
+```python
+rule1 = ctrl.Rule(velocidade['baixa'] & temperatura['baixa'], consumo['pequeno'])
+rule2 = ctrl.Rule(velocidade['baixa'] & temperatura['alta'], consumo['pequeno'])
+rule3 = ctrl.Rule(velocidade['média'] & temperatura['baixa'], consumo['grande'])
+rule4 = ctrl.Rule(velocidade['média'] & temperatura['alta'], consumo['médio'])
+rule5 = ctrl.Rule(velocidade['alta'] & temperatura['baixa'], consumo['grande'])
+rule6 = ctrl.Rule(velocidade['alta'] & temperatura['alta'], consumo['grande'])
+```
